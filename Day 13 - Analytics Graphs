@@ -1,4 +1,11 @@
 # Day 13 - Analytics Graphs
+## Bar Chart
+
+![Bar Chart](behavior_bar_chart.png)
+
+## Pie Chart
+
+![Pie Chart](behavior_pie_chart.png)
 
 Objective:
 Generate visual analytics from classroom behavior counts.
