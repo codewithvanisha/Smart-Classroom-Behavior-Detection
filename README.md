@@ -70,4 +70,4 @@ confusion_matrix_normalized.png
 Vanisha Babu
 B.E. Computer Science Engineering (AI & ML)
 
-Project Status:  Under Active Development
+Project Status:  Completed
