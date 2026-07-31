@@ -79,15 +79,18 @@ The trained model was able to detect multiple classroom behaviors successfully. 
 
  Repository Structure
 
----
+```
 📁 documentation
 📁 model
 📁 notebooks
 📁 outputs
 📁 screenshots
----
+
 README.md
 requirements.txt
+```
+
+---
 
 
  Future Improvements
