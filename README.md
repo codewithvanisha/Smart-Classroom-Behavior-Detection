@@ -33,7 +33,7 @@ This project was developed during my internship at Bharat Electronics Limited (B
 The project uses a classroom behavior dataset collected from Kaggle. The dataset was annotated and exported using Roboflow in YOLOv8 format before training the model.
 
 
-🔄 Project Workflow
+ Project Workflow
 
 
 Dataset Collection
