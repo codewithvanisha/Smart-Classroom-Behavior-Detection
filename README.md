@@ -1,73 +1,111 @@
-# Smart Classroom Behavior Detection using YOLOv8
-Internship Project(BEL)
-## About This Project
+ Smart Classroom Behavior Detection using YOLOv8
 
-Hi! I am Vanisha Babu, a Computer Science Engineering student specializing in Artificial Intelligence and Machine Learning.
+ Internship Project
+Organization:Bharat Electronics Limited (BEL)
 
-This project focuses on detecting and analyzing student behaviors in a classroom environment using YOLOv8. The objective is to build a smart classroom monitoring system capable of identifying different student activities and supporting classroom analytics.
 
-## Behaviors Detected
+  Project Overview
 
-The model is trained to detect the following classroom behaviors:
+This project was developed during my internship at Bharat Electronics Limited (BEL). The main objective of the project is to detect different student behaviors in a classroom using the YOLOv8 object detection model. The system analyzes classroom images and videos and identifies various student activities, making it useful for classroom monitoring and behavior analysis.
 
-* Hand Raise
-* Reading
-* Writing
-* Sleeping
-* Using Device
-* Standing
-* Looking Forward
-* Turning Head
 
-## Technologies Used
+ Project Objectives
 
-* Python
-* YOLOv8
-* Google Colab
-* OpenCV
-* Roboflow
-* GitHub
-* kaggle 
+- Detect different student behaviors using Computer Vision.
+- Train a custom YOLOv8 model on a classroom dataset.
+- Test the model on classroom images and videos.
+- Analyze the detection results using evaluation metrics.
+- Understand the workflow involved in an AI-based object detection project.
 
-## Project Workflow
 
-1. Dataset collection and preparation
-2. Image annotation and preprocessing
-3. YOLOv8 model training
-4. Model evaluation and testing
-5. Prediction and behavior detection
-6. Performance analysis
+ Technologies Used
 
-## Current Progress
+- Python
+- YOLOv8
+- OpenCV
+- Google Colab
+- Roboflow
+- Kaggle Dataset
+- GitHub
 
-* Dataset prepared and organized
-* YOLOv8 model trained successfully
-* Multiple classroom behaviors detected
-* Evaluation metrics generated
-* GitHub repository created
-* Project documentation in progress
+ Dataset
 
-## Repository Contents
+The project uses a classroom behavior dataset collected from Kaggle. The dataset was annotated and exported using Roboflow in YOLOv8 format before training the model.
 
-* best.pt – Trained YOLOv8 model
-* Smart_Classroom_Project.ipynb – Project notebook
-* results.png – Training results
-* confusion_matrix.png
-confusion_matrix_normalized.png
-* Evaluation curves
-* Prediction outputs
 
-## Future Work
+🔄 Project Workflow
 
-* Improve detection accuracy
-* Add real-time webcam monitoring
-* Develop classroom analytics dashboard
-* Generate student engagement reports
-* Explore deployment options
 
-## Author
+Dataset Collection
+        ↓
+Data Preprocessing
+        ↓
+YOLOv8 Model Training
+        ↓
+Model Validation
+        ↓
+Image & Video Testing
+        ↓
+Behavior Detection
 
-Vanisha Babu
-B.E. Computer Science Engineering (AI & ML)
+
+ Behaviors Detected
+
+The model detects the following classroom activities:
+
+- Hand Raise
+- Reading
+- Writing
+- Sleeping
+- Using Device
+- Standing
+- Looking Forward
+- Turning Head
+
+
+ Results
+
+The trained model was able to detect multiple classroom behaviors successfully. The project includes:
+
+- Prediction Images
+- Video Detection
+- Confusion Matrix
+- Precision Curve
+- Recall Curve
+- Precision-Recall Curve
+- Training Results Graph
+
+
+
+ Repository Structure
+
+
+📁 documentation
+📁 model
+📁 notebooks
+📁 outputs
+📁 screenshots
+
+README.md
+requirements.txt
+
+
+ Future Improvements
+
+- Improve detection accuracy using a larger dataset.
+- Implement real-time webcam detection.
+- Develop a classroom analytics dashboard.
+- Generate attendance and engagement reports.
+- Deploy the project as a web application.
+
+
+
+ Author
+
+ B S Vanisha Babu
+
+B.Tech Computer Science Engineering (AI & ML)
+
+Presidency University, Bengaluru
 
 Project Status:  Completed
